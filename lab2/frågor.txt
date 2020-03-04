@@ -1,0 +1,13 @@
+  File "server.py", line 50, in <module>
+    main()
+  File "server.py", line 15, in main
+    proxy(request, conn, client_addr)
+  File "server.py", line 22, in proxy
+    request_decoded = request.decode()
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc2 in position 344: invalid continuation byte
+
+
+VAD ÄR DETTA ^
+
+
+VAD SKA VI GÖRA FÖR ATT KOMMA FRAMÅT?
